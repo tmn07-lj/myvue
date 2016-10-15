@@ -50,10 +50,12 @@ export default {
             handler: function(val) {
                 // Store.save(val)
                 console.log(this.all_incomes)
+                var dist = 1000000
                 for (var i = this.all_incomes.length - 1; i >= 0; i--) {
-                    this.dist -= parseFloat(this.all_incomes[i].money)
+                    dist -= parseFloat(this.all_incomes[i].money)
                 }
-                Store.seto(this.dist)
+                this.dist = dist
+                Store.seto(dist)
             },
             deep: true
         }

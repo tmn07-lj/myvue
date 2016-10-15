@@ -8,7 +8,7 @@ export default {
 	},
 	geto: function () {
 		var dist = JSON.parse(window.localStorage.getItem('dist') || 0)
-		return 1000000-dist
+		return dist
 	},
 	seto: function (dist) {
 		window.localStorage.setItem('dist',dist)
