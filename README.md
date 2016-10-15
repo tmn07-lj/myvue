@@ -7,8 +7,10 @@ http://rc.vuejs.org/ 用的是Vue2.0 ，和1的区别例如v-for 里的index写�
 2.0没有中文文档...
 
 这里有两个“应用”，一个是官方的demo todolist ![](./static/todolist.png)
+http://tmn07.com/todo/
 
 另一个是GOM web单机版 ,木有前端233![](./static/gom.png)
+http://tmn07.com/gom/
 
 在main.js里修改就能切换应用了。
 
